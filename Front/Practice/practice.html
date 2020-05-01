@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+        }
+        td{
+            width: 100px;
+            height: 100px;
+        }
+        .v{
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .h{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+   <form action="">
+        <div>
+            <label for="firstname">Firstname: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+            <label for="lastname">Lastname: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+        </div>
+        <div>
+            <label for="male">Male : </label> 
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female : </label> 
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label>Date : 
+                <select>
+                    <option value="jan">jan</option>
+                    <option value="feb">feb</option>
+                    <option value="mar">mar</option>
+                </select>
+                <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <select>
+                    <option value="">2000</option>
+                    <option value="">2020</option>
+                </select>
+            </label>
+        </div>
+       <label for="email">Email : </label>
+       <input type="email" name="email" id="email" placeholder="Email" required>
+       <label for="password">Password : </label>
+       <input type="password" name="password" id="password" placeholder="Password" pattern=".{5,10}"  required title="Should be 5 to 10 chars">
+       <br>
+       <label for="privacy">I Accept Privacy and plolices</label>
+       <input type="checkbox" name="privacy" id="privacy">
+       <br>
+       <button>Submit</button>
+   </form>
+   <h1>Tic Tac Toe</h1>
+   <table>
+       <tr>
+           <td></td>
+           <td class="v"></td>
+           <td></td>
+       </tr>
+       <tr>
+        <td class="h"></td>
+        <td class="h v"></td>
+        <td class="h "></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="v"></td>
+        <td></td>
+    </tr>
+   </table>
+</body>
+</html>

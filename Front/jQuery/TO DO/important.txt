@@ -1,0 +1,21 @@
+uigradients.com
+stackshare.io
+REPL
+read evaluate print loop
+
+IRB
+interactive Ruby
+#f7e80e => niceYellow
+IFTTT => Connect API's You Love
+ProgrammableWeb
+Climbing Whether
+Tesla Model S JSON API
+JSON placeholder API
+OMDB API
+image website => Photos for class - unsplash
+REST => Representation State Transfer 
+REST -> a mapping between HTTP routes and CRUD
+Bootstrap CDN CSS
+https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+Bootstrap CDN JS
+https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js

@@ -1,0 +1,16 @@
+<div class="container"> 
+    <div class="row mt-2">
+        <div class="card col-3">
+            <div *ngFor="let topnew of topnews" class="card-body">
+                <p>{{topnew.Name}}</p>
+                <hr>
+            </div>
+        </div>   
+        <div class="card col-3 offset-6">
+            <div *ngFor="let featurednew of featurednews" class="card-body">
+                <p>{{featurednew.Name}}</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>   

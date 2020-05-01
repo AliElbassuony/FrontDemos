@@ -1,0 +1,9 @@
+css font stack
+google/fonts
+css tricks
+border: 20px solid #bdc3c7;
+color:#3498db;
+DarkBlue => color: #2c3e50;
+LightGray : #ecf0f1;
+unsplash => images
+	
