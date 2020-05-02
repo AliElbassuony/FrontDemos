@@ -70,7 +70,7 @@ for (let i = 0; i < squares.length; i++) {
             changeColors(pickedColor);
         }
          else{
-            message.textContent = "Wrong Answer";
+            message.textContent = "Wrong";
              this.style.backgroundColor = "#232323";
          }
     })
